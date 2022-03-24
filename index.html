@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audio player</title>
+
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="./assets/icons/vinyl.png" type="image/x-icon">
+</head>
+
+<body>
+	<audio src="" id="audio"></audio>
+
+	<div class="wrapper">
+		<h1 class="song-name">song one</h1>
+		<p class="artist-name">artist</p>
+
+		<div class="disk"></div>
+
+		<div class="song-slider">
+			<input type="range" class="seek-bar" value="0">
+			<span class="current-time">00:00</span>
+			<span class="song-duration">00:00</span>
+		</div>
+
+		<div class="controls">
+			<button class="bubbly-button prev-btn"><img src="./assets/icons/pre.png" alt="prev button"></button>
+
+			<button class="play-btn pause">
+				<span></span>
+				<span></span>
+			</button>
+
+			<button class="bubbly-button next-btn"><img src="./assets/icons/nxt.png" alt="next button"></button>
+		</div>
+	</div>
+	
+	<script src="./data.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>
