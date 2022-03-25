@@ -7,6 +7,8 @@ A music player that allows you to play music tracks one by one or flip through t
 ### Key features
 
 1. Layout
+
+
 ** audio player layout: there is a Play / Pause button, "Forward" and "Back" buttons for scrolling through audio tracks, a progress bar, the name and author of the track is displayed
 
 ** in the application footer there is a link to the github of the author of the application, the year the application was created, the course logo with a link to the course
